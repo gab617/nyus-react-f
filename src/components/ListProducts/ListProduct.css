@@ -1,0 +1,89 @@
+#ListProdContent {
+    background-color: rgb(39, 114, 181);
+    width: auto;
+}
+
+#ListProdContent header {
+    position: sticky;
+    top: 0;
+    background-color: #3498db;
+    padding: 15px;
+    z-index: 1000;
+}
+
+#ListProducts {
+    text-align: end;
+}
+
+#UlPrincipal {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(6em, 1fr));
+    /* Ajusta el ancho mínimo y distribuye en columnas iguales */
+    gap: .7em;
+    /* Espacio entre los elementos */
+    list-style: none;
+
+}
+
+
+
+#UlPrincipal li {
+    width: inherit;
+    height: 16em;
+    border: 1px solid #ccc;
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 1em;
+    box-shadow:
+        15px 10px 3px rgba(0, 0, 0, 0.32) inset;
+    font-size: 50%;
+}
+
+#links-LP {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.tot-reload {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tot-reload button {
+    width: 20%;
+
+}
+
+
+#links-LP a {
+    text-decoration: none;
+    background-color: #e2dbdb;
+    color: black;
+    font-weight: bold;
+    padding: .8em 1.5em .8em 1.5em;
+    border: 2px solid #333;
+    border-radius: 5px;
+    display: inline-block;
+    transition: background-color 0.3s, color 0.3s;
+    margin-bottom: 1em;
+    text-align: center;
+    -webkit-box-shadow: inset 72px -5px 72px -35px rgba(166, 158, 166, 1);
+    -moz-box-shadow: inset 72px -5px 72px -35px rgba(166, 158, 166, 1);
+    box-shadow: inset 72px -5px 72px -35px rgba(166, 158, 166, 1);
+
+
+}
+
+.tot-reload button {
+    background-color: #e86363;
+    color: #ffffff;
+    font-weight: bold;
+    border: 2px solid #333;
+    border-radius: 5px;
+    display: inline-block;
+    -webkit-box-shadow: 4px -5px 0px 0px rgba(0, 0, 0, 0.63);
+    -moz-box-shadow: 4px -5px 0px 0px rgba(0, 0, 0, 0.63);
+    box-shadow: 4px -5px 0px 0px rgba(0, 0, 0, 0.63);
+}

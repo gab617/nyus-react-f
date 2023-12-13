@@ -1,0 +1,41 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.fade-in {
+  opacity: 0;
+  /* Empieza con opacidad 0 para ocultar el componente */
+  animation: fadeIn 0.5s ease-in forwards;
+  /* Animación de fundido */
+}
+
+/* #prod-carr-div{
+  display: flex;
+}
+ */
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    /* Llega a una opacidad de 1 para mostrar el componente */
+  }
+}
+
+#Content{
+}
+
+#container-header{
+  position: fixed;
+  background-color: #3498db; /* Color de fondo del elemento */
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+  z-index: 1000; /* Ajusta el valor según sea necesario */
+}

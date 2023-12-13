@@ -1,0 +1,78 @@
+#CartContent header {
+    position: sticky;
+    top: 0;
+    background-color: #3498db;
+    padding: 15px;
+    z-index: 1000;
+}
+
+#CartContent a {
+    text-decoration: none;
+    background-color: #e2dbdb;
+    color: #333;
+    font-weight: bold;
+    padding: .8em 1.5em .8em 1.5em;
+    border: 2px solid #333;
+    border-radius: 5px;
+    display: inline-block;
+    transition: background-color 0.3s, color 0.3s;
+    text-align: center;
+    -webkit-box-shadow: inset 72px -5px 72px -35px rgba(166, 158, 166, 1);
+    -moz-box-shadow: inset 72px -5px 72px -35px rgba(166, 158, 166, 1);
+    box-shadow: inset 72px -5px 72px -35px rgba(166, 158, 166, 1);
+
+
+}
+
+#Cart li {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1.3em solid #ddd;
+}
+
+#Cart li .img-container {
+    border-radius: .4em;
+    width: 100%;
+    height: 99%;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.3);
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+}
+
+#Cart li .img-container img{
+    width: 100%;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.3);
+}
+
+#cont-img-section {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#links-Cart {
+    display: flex;
+    flex-direction: column;
+}
+
+#Buttons{
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    bottom: 0;
+    background-color: #3498db;
+    padding: 15px;
+    z-index: 1000;
+}
+
+#Buttons button{
+    text-decoration: none;
+    background-color: #e2dbdb;
+    color: #333;
+    font-weight: bold;
+    padding: .8em 1.5em .8em 1.5em;
+    border: 2px solid #333;
+    border-radius: 5px;
+    display: inline-block;
+    transition: background-color 0.3s, color 0.3s;
+}

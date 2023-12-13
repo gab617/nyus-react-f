@@ -1,0 +1,46 @@
+.select {
+    background: rgb(25, 6, 8);
+    background: linear-gradient(90deg, rgba(25, 6, 8, 0.8519782913165266) 5%, rgba(4, 0, 0, 0.9108018207282913) 68%);
+    color: white;
+    text-shadow: 0 0 10px rgba(48, 17, 202, 0.7);
+
+}
+
+.no-selected {
+    background-color: transparent;
+}
+
+/* Clase para 'almacen' */
+.almacen {
+    background-color: #fddc57a6;
+    /* Fondo amarillo para 'almacen' */
+}
+
+/* Clase para 'limpieza' */
+.limpieza {
+    background-color: #66cc99be;
+    /* Fondo verde para 'limpieza' */
+}
+
+/* Clase para 'promo' */
+.promo {
+    background-color: #ff6666e8;
+    /* Fondo rojo para 'promo' */
+}
+
+/* Clase para 'verduleria' */
+.verduleria {
+    background-color: #99ccffb4;
+    /* Fondo azul claro para 'verduleria' */
+}
+
+.producto img{
+    width: 100%;
+    border-radius: .9em;
+}
+
+.producto h1{
+}
+.producto h2{
+    font-size: 2.3em;
+}
